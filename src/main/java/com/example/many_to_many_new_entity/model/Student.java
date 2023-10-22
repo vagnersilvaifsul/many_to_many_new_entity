@@ -11,9 +11,6 @@ import java.util.Set;
 * Baseado em: https://www.baeldung.com/jpa-many-to-many
 * */
 @Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Student {
     @Id
     Long id;

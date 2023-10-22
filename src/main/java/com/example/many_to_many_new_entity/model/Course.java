@@ -11,9 +11,6 @@ import javax.persistence.OneToMany;
 import java.util.Set;
 
 @Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Course {
     @Id
     Long id;
